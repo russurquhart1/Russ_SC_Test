@@ -1,6 +1,6 @@
 # Debug with Kubectl `logs` Command
 
-The `kubectl logs` command lists all the log files for a specified pod. As a debugging action, you can use this command to provide context for a specified pod. The following procedure shows how to use this command.
+The `kubectl logs` command lists all the log files for a specified pod. As a debugging action, you can use this command to gather all the log files, associated with your pod, in order to determine any issues. The following procedure shows how to use this command.
 
 :::note
 This command requires an active and running Kubernetes namespace.
