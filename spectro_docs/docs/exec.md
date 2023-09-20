@@ -1,7 +1,7 @@
 # Debug with Kubectl `exec` Command
 
 
-The `kubectl exec` command enables you to execute any commands that are installed on your pod. As a debugging action, you can execute any debugging tools installed on your pod. The following procedure shows how to use this command.
+The `kubectl exec` command enables you to execute any command installed on your pod. As a debugging action, you can execute any debugging tools installed on your pod. The following procedure shows how to use this command.
 
 :::note
 This command requires an active and running Kubernetes namespace.
@@ -10,7 +10,7 @@ This command requires an active and running Kubernetes namespace.
 
 1. Open a terminal window.
 
-2. For our example, we want to display an `ls` listing of everything in our pod. In the terminal window, enter the following command:
+2. For example, to display an `ls` listing of everything in the pod. In the terminal window, enter the following command:
 
 ```shell
 kubectl exec my-pod -- ls /
